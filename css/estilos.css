@@ -31,18 +31,14 @@ selector de id #portafolio
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-github:before {
-    content: "\e901";
-    font-size: 250%;
-  }
   .icon-twitter:before {
     content: "\e902";
     font-size: 250%;
   }
-  .icon-spotify:before {
+  .icon-youtube:before {
     content: "\e903";
     font-size: 250%;
-  }
+  } 
   .icon-whatsapp:before {
     content: "\e904";
     font-size: 250%;
@@ -224,8 +220,7 @@ h2{
     border-top-right-radius: 30px ;
     margin-bottom: 15px;
     padding: 20px;
-    /*background:  rgb(66, 66, 70);*/
-    background-image: url(../imagenes/Logos/dark-paths.png);
+    /*background:  rgb(66, 66, 70);*/    
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -251,7 +246,9 @@ h2{
     justify-content: space-between;
 }
 .experience-list-title{
+    font-size: x-large;
     margin-left: 20px;
+    color: #006170;
 }
 .experience{
     margin: 1%;
